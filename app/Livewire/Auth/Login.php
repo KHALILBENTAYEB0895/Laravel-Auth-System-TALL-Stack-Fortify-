@@ -2,10 +2,14 @@
 
 namespace App\Livewire\Auth;
 
+use Livewire\Component;
+use Livewire\Attributes\Title;
+use Livewire\Attributes\Layout;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
-use Livewire\Component;
 
+#[Layout('layouts.guest')]
+#[Title('Login')]
 class Login extends Component
 {
     public string $email = '';
