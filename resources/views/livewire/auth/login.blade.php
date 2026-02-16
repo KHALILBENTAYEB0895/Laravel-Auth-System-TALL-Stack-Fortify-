@@ -33,7 +33,7 @@
 
                 <p class="text-center text-sm text-gray-600">
                     Pas de compte ? 
-                    <a href="" class="text-indigo-600 hover:text-indigo-500">
+                    <a href="{{ route('register') }}" class="text-indigo-600 hover:text-indigo-500">
                         S'inscrire
                     </a>
                 </p>
